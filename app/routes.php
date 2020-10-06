@@ -16,6 +16,7 @@ Route::post('doLogin', array('as'=> 'doLogin', 'uses'=> 'LoginController@doLogin
 Route::get('register', array('as'=> 'register', 'uses'=> 'LoginController@register'));
 Route::post('doRegister', array('as'=> 'doRegister', 'uses'=> 'LoginController@doRegister'));
 Route::group(array('before'=> 'login'), function() {
+	Route::get('/outLogin', array('as'=> 'outLogin', 'uses'=>'LoginController@outLogin'));
 	// 首页
 	Route::get('/', array('as'=> '/', 'uses'=> 'IndexController@index'));
 	Route::get('/addWork', array('as'=> '/addWork', 'uses'=> 'IndexController@addWork'));

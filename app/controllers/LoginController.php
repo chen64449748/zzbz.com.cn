@@ -57,4 +57,9 @@ class LoginController extends BaseController
 			return Redirect::to('/');
 		}
 	}
+
+	public function outLogin() {
+		Session::forget('user');
+		return Redirect::to('/login');
+	}
 }

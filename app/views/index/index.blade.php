@@ -28,6 +28,7 @@
   
   <li role="presentation" ><a href="/addWork">添加流水线</a></li>
   <li role="presentation" ><a href="/process">设置工序</a></li>
+  <li role="presentation" ><a href="/outLogin">退出</a></li>
 </ul>
 <br>
 @foreach ($works as $work)
