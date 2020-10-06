@@ -1,0 +1,114 @@
+2020-03-25 15:38:59 pid:1 ErrorException: Undefined variable: connections in E:\phpstudy_pro\WWW\ylw\app\commands\SWorker.php:63
+Stack trace:
+#0 E:\phpstudy_pro\WWW\ylw\app\commands\SWorker.php(63): Illuminate\Exception\Handler->handleError(8, 'Undefined varia...', 'E:\\phpstudy_pro...', 63, Array)
+#1 E:\phpstudy_pro\WWW\ylw\app\Workerman\Connection\TcpConnection.php(658): SWorker->{closure}(Object(Workerman\Connection\TcpConnection), 's')
+#2 E:\phpstudy_pro\WWW\ylw\app\Workerman\Events\Select.php(292): Workerman\Connection\TcpConnection->baseRead(Resource id #178)
+#3 E:\phpstudy_pro\WWW\ylw\app\Workerman\Worker.php(2408): Workerman\Events\Select->loop()
+#4 E:\phpstudy_pro\WWW\ylw\app\Workerman\Worker.php(1404): Workerman\Worker->run()
+#5 E:\phpstudy_pro\WWW\ylw\app\Workerman\Worker.php(1347): Workerman\Worker::forkWorkersForWindows()
+#6 E:\phpstudy_pro\WWW\ylw\app\Workerman\Worker.php(546): Workerman\Worker::forkWorkers()
+#7 E:\phpstudy_pro\WWW\ylw\app\commands\SWorker.php(68): Workerman\Worker::runAll()
+#8 E:\phpstudy_pro\WWW\ylw\vendor\laravel\framework\src\Illuminate\Console\Command.php(112): SWorker->fire()
+#9 E:\phpstudy_pro\WWW\ylw\vendor\symfony\console\Symfony\Component\Console\Command\Command.php(252): Illuminate\Console\Command->execute(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#10 E:\phpstudy_pro\WWW\ylw\vendor\laravel\framework\src\Illuminate\Console\Command.php(100): Symfony\Component\Console\Command\Command->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#11 E:\phpstudy_pro\WWW\ylw\vendor\symfony\console\Symfony\Component\Console\Application.php(889): Illuminate\Console\Command->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#12 E:\phpstudy_pro\WWW\ylw\vendor\symfony\console\Symfony\Component\Console\Application.php(193): Symfony\Component\Console\Application->doRunCommand(Object(SWorker), Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#13 E:\phpstudy_pro\WWW\ylw\vendor\symfony\console\Symfony\Component\Console\Application.php(124): Symfony\Component\Console\Application->doRun(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#14 E:\phpstudy_pro\WWW\ylw\artisan(59): Symfony\Component\Console\Application->run()
+#15 {main}
+2020-03-25 15:38:59 pid:1 Worker process terminated
+2020-03-25 15:45:00 pid:1 ErrorException: Undefined variable: connections in E:\phpstudy_pro\WWW\ylw\app\commands\SWorker.php:65
+Stack trace:
+#0 E:\phpstudy_pro\WWW\ylw\app\commands\SWorker.php(65): Illuminate\Exception\Handler->handleError(8, 'Undefined varia...', 'E:\\phpstudy_pro...', 65, Array)
+#1 E:\phpstudy_pro\WWW\ylw\app\Workerman\Connection\TcpConnection.php(658): SWorker->{closure}(Object(Workerman\Connection\TcpConnection), 's')
+#2 E:\phpstudy_pro\WWW\ylw\app\Workerman\Events\Select.php(292): Workerman\Connection\TcpConnection->baseRead(Resource id #178)
+#3 E:\phpstudy_pro\WWW\ylw\app\Workerman\Worker.php(2408): Workerman\Events\Select->loop()
+#4 E:\phpstudy_pro\WWW\ylw\app\Workerman\Worker.php(1404): Workerman\Worker->run()
+#5 E:\phpstudy_pro\WWW\ylw\app\Workerman\Worker.php(1347): Workerman\Worker::forkWorkersForWindows()
+#6 E:\phpstudy_pro\WWW\ylw\app\Workerman\Worker.php(546): Workerman\Worker::forkWorkers()
+#7 E:\phpstudy_pro\WWW\ylw\app\commands\SWorker.php(70): Workerman\Worker::runAll()
+#8 E:\phpstudy_pro\WWW\ylw\vendor\laravel\framework\src\Illuminate\Console\Command.php(112): SWorker->fire()
+#9 E:\phpstudy_pro\WWW\ylw\vendor\symfony\console\Symfony\Component\Console\Command\Command.php(252): Illuminate\Console\Command->execute(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#10 E:\phpstudy_pro\WWW\ylw\vendor\laravel\framework\src\Illuminate\Console\Command.php(100): Symfony\Component\Console\Command\Command->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#11 E:\phpstudy_pro\WWW\ylw\vendor\symfony\console\Symfony\Component\Console\Application.php(889): Illuminate\Console\Command->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#12 E:\phpstudy_pro\WWW\ylw\vendor\symfony\console\Symfony\Component\Console\Application.php(193): Symfony\Component\Console\Application->doRunCommand(Object(SWorker), Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#13 E:\phpstudy_pro\WWW\ylw\vendor\symfony\console\Symfony\Component\Console\Application.php(124): Symfony\Component\Console\Application->doRun(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#14 E:\phpstudy_pro\WWW\ylw\artisan(59): Symfony\Component\Console\Application->run()
+#15 {main}
+2020-03-25 15:45:00 pid:1 Worker process terminated
+2020-03-25 15:48:44 pid:1 ErrorException: Undefined variable: connections in E:\phpstudy_pro\WWW\ylw\app\commands\SWorker.php:66
+Stack trace:
+#0 E:\phpstudy_pro\WWW\ylw\app\commands\SWorker.php(66): Illuminate\Exception\Handler->handleError(8, 'Undefined varia...', 'E:\\phpstudy_pro...', 66, Array)
+#1 E:\phpstudy_pro\WWW\ylw\app\Workerman\Connection\TcpConnection.php(658): SWorker->{closure}(Object(Workerman\Connection\TcpConnection), 's')
+#2 E:\phpstudy_pro\WWW\ylw\app\Workerman\Events\Select.php(292): Workerman\Connection\TcpConnection->baseRead(Resource id #178)
+#3 E:\phpstudy_pro\WWW\ylw\app\Workerman\Worker.php(2408): Workerman\Events\Select->loop()
+#4 E:\phpstudy_pro\WWW\ylw\app\Workerman\Worker.php(1404): Workerman\Worker->run()
+#5 E:\phpstudy_pro\WWW\ylw\app\Workerman\Worker.php(1347): Workerman\Worker::forkWorkersForWindows()
+#6 E:\phpstudy_pro\WWW\ylw\app\Workerman\Worker.php(546): Workerman\Worker::forkWorkers()
+#7 E:\phpstudy_pro\WWW\ylw\app\commands\SWorker.php(71): Workerman\Worker::runAll()
+#8 E:\phpstudy_pro\WWW\ylw\vendor\laravel\framework\src\Illuminate\Console\Command.php(112): SWorker->fire()
+#9 E:\phpstudy_pro\WWW\ylw\vendor\symfony\console\Symfony\Component\Console\Command\Command.php(252): Illuminate\Console\Command->execute(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#10 E:\phpstudy_pro\WWW\ylw\vendor\laravel\framework\src\Illuminate\Console\Command.php(100): Symfony\Component\Console\Command\Command->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#11 E:\phpstudy_pro\WWW\ylw\vendor\symfony\console\Symfony\Component\Console\Application.php(889): Illuminate\Console\Command->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#12 E:\phpstudy_pro\WWW\ylw\vendor\symfony\console\Symfony\Component\Console\Application.php(193): Symfony\Component\Console\Application->doRunCommand(Object(SWorker), Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#13 E:\phpstudy_pro\WWW\ylw\vendor\symfony\console\Symfony\Component\Console\Application.php(124): Symfony\Component\Console\Application->doRun(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#14 E:\phpstudy_pro\WWW\ylw\artisan(59): Symfony\Component\Console\Application->run()
+#15 {main}
+2020-03-25 15:48:44 pid:1 Worker process terminated
+2020-03-25 15:50:08 pid:1 ErrorException: Undefined variable: connections in E:\phpstudy_pro\WWW\ylw\app\commands\SWorker.php:66
+Stack trace:
+#0 E:\phpstudy_pro\WWW\ylw\app\commands\SWorker.php(66): Illuminate\Exception\Handler->handleError(8, 'Undefined varia...', 'E:\\phpstudy_pro...', 66, Array)
+#1 E:\phpstudy_pro\WWW\ylw\app\Workerman\Connection\TcpConnection.php(658): SWorker->{closure}(Object(Workerman\Connection\TcpConnection), 's')
+#2 E:\phpstudy_pro\WWW\ylw\app\Workerman\Events\Select.php(292): Workerman\Connection\TcpConnection->baseRead(Resource id #178)
+#3 E:\phpstudy_pro\WWW\ylw\app\Workerman\Worker.php(2408): Workerman\Events\Select->loop()
+#4 E:\phpstudy_pro\WWW\ylw\app\Workerman\Worker.php(1404): Workerman\Worker->run()
+#5 E:\phpstudy_pro\WWW\ylw\app\Workerman\Worker.php(1347): Workerman\Worker::forkWorkersForWindows()
+#6 E:\phpstudy_pro\WWW\ylw\app\Workerman\Worker.php(546): Workerman\Worker::forkWorkers()
+#7 E:\phpstudy_pro\WWW\ylw\app\commands\SWorker.php(71): Workerman\Worker::runAll()
+#8 E:\phpstudy_pro\WWW\ylw\vendor\laravel\framework\src\Illuminate\Console\Command.php(112): SWorker->fire()
+#9 E:\phpstudy_pro\WWW\ylw\vendor\symfony\console\Symfony\Component\Console\Command\Command.php(252): Illuminate\Console\Command->execute(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#10 E:\phpstudy_pro\WWW\ylw\vendor\laravel\framework\src\Illuminate\Console\Command.php(100): Symfony\Component\Console\Command\Command->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#11 E:\phpstudy_pro\WWW\ylw\vendor\symfony\console\Symfony\Component\Console\Application.php(889): Illuminate\Console\Command->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#12 E:\phpstudy_pro\WWW\ylw\vendor\symfony\console\Symfony\Component\Console\Application.php(193): Symfony\Component\Console\Application->doRunCommand(Object(SWorker), Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#13 E:\phpstudy_pro\WWW\ylw\vendor\symfony\console\Symfony\Component\Console\Application.php(124): Symfony\Component\Console\Application->doRun(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#14 E:\phpstudy_pro\WWW\ylw\artisan(59): Symfony\Component\Console\Application->run()
+#15 {main}
+2020-03-25 15:50:08 pid:1 Worker process terminated
+2020-03-25 15:51:02 pid:1 ErrorException: Undefined variable: connections in E:\phpstudy_pro\WWW\ylw\app\commands\SWorker.php:66
+Stack trace:
+#0 E:\phpstudy_pro\WWW\ylw\app\commands\SWorker.php(66): Illuminate\Exception\Handler->handleError(8, 'Undefined varia...', 'E:\\phpstudy_pro...', 66, Array)
+#1 E:\phpstudy_pro\WWW\ylw\app\Workerman\Connection\TcpConnection.php(658): SWorker->{closure}(Object(Workerman\Connection\TcpConnection), 's')
+#2 E:\phpstudy_pro\WWW\ylw\app\Workerman\Events\Select.php(292): Workerman\Connection\TcpConnection->baseRead(Resource id #178)
+#3 E:\phpstudy_pro\WWW\ylw\app\Workerman\Worker.php(2408): Workerman\Events\Select->loop()
+#4 E:\phpstudy_pro\WWW\ylw\app\Workerman\Worker.php(1404): Workerman\Worker->run()
+#5 E:\phpstudy_pro\WWW\ylw\app\Workerman\Worker.php(1347): Workerman\Worker::forkWorkersForWindows()
+#6 E:\phpstudy_pro\WWW\ylw\app\Workerman\Worker.php(546): Workerman\Worker::forkWorkers()
+#7 E:\phpstudy_pro\WWW\ylw\app\commands\SWorker.php(71): Workerman\Worker::runAll()
+#8 E:\phpstudy_pro\WWW\ylw\vendor\laravel\framework\src\Illuminate\Console\Command.php(112): SWorker->fire()
+#9 E:\phpstudy_pro\WWW\ylw\vendor\symfony\console\Symfony\Component\Console\Command\Command.php(252): Illuminate\Console\Command->execute(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#10 E:\phpstudy_pro\WWW\ylw\vendor\laravel\framework\src\Illuminate\Console\Command.php(100): Symfony\Component\Console\Command\Command->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#11 E:\phpstudy_pro\WWW\ylw\vendor\symfony\console\Symfony\Component\Console\Application.php(889): Illuminate\Console\Command->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#12 E:\phpstudy_pro\WWW\ylw\vendor\symfony\console\Symfony\Component\Console\Application.php(193): Symfony\Component\Console\Application->doRunCommand(Object(SWorker), Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#13 E:\phpstudy_pro\WWW\ylw\vendor\symfony\console\Symfony\Component\Console\Application.php(124): Symfony\Component\Console\Application->doRun(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#14 E:\phpstudy_pro\WWW\ylw\artisan(59): Symfony\Component\Console\Application->run()
+#15 {main}
+2020-03-25 15:51:02 pid:1 Worker process terminated
+2020-03-25 15:52:26 pid:1 ErrorException: Object of class Workerman\Connection\TcpConnection could not be converted to string in E:\phpstudy_pro\WWW\ylw\app\commands\SWorker.php:54
+Stack trace:
+#0 E:\phpstudy_pro\WWW\ylw\app\commands\SWorker.php(54): Illuminate\Exception\Handler->handleError(4096, 'Object of class...', 'E:\\phpstudy_pro...', 54, Array)
+#1 E:\phpstudy_pro\WWW\ylw\app\Workerman\Connection\TcpConnection.php(658): SWorker->{closure}(Object(Workerman\Connection\TcpConnection), 'fh-add-pc')
+#2 E:\phpstudy_pro\WWW\ylw\app\Workerman\Events\Select.php(292): Workerman\Connection\TcpConnection->baseRead(Resource id #178)
+#3 E:\phpstudy_pro\WWW\ylw\app\Workerman\Worker.php(2408): Workerman\Events\Select->loop()
+#4 E:\phpstudy_pro\WWW\ylw\app\Workerman\Worker.php(1404): Workerman\Worker->run()
+#5 E:\phpstudy_pro\WWW\ylw\app\Workerman\Worker.php(1347): Workerman\Worker::forkWorkersForWindows()
+#6 E:\phpstudy_pro\WWW\ylw\app\Workerman\Worker.php(546): Workerman\Worker::forkWorkers()
+#7 E:\phpstudy_pro\WWW\ylw\app\commands\SWorker.php(69): Workerman\Worker::runAll()
+#8 E:\phpstudy_pro\WWW\ylw\vendor\laravel\framework\src\Illuminate\Console\Command.php(112): SWorker->fire()
+#9 E:\phpstudy_pro\WWW\ylw\vendor\symfony\console\Symfony\Component\Console\Command\Command.php(252): Illuminate\Console\Command->execute(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#10 E:\phpstudy_pro\WWW\ylw\vendor\laravel\framework\src\Illuminate\Console\Command.php(100): Symfony\Component\Console\Command\Command->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#11 E:\phpstudy_pro\WWW\ylw\vendor\symfony\console\Symfony\Component\Console\Application.php(889): Illuminate\Console\Command->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#12 E:\phpstudy_pro\WWW\ylw\vendor\symfony\console\Symfony\Component\Console\Application.php(193): Symfony\Component\Console\Application->doRunCommand(Object(SWorker), Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#13 E:\phpstudy_pro\WWW\ylw\vendor\symfony\console\Symfony\Component\Console\Application.php(124): Symfony\Component\Console\Application->doRun(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#14 E:\phpstudy_pro\WWW\ylw\artisan(59): Symfony\Component\Console\Application->run()
+#15 {main}
+2020-03-25 15:52:26 pid:1 Worker process terminated
